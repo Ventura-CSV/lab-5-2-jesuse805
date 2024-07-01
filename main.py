@@ -8,14 +8,14 @@ def getinput(n1, n2):
 
 
 def main():
-    a = b = 0
-    print('Before call function id n1', id(a))
-    print('Before call function id n2', id(b))
-    getinput(a, b)
-    print('After call function id n1', id(a))
-    print('After call function id n2', id(b))
-    print(a, b)
-    return a, b
+    num1 = num2 = 0
+    print('Before call function id n1', id(num1))
+    print('Before call function id n2', id(num2))
+    getinput(num1, num2)
+    print('After call function id n1', id(num1))
+    print('After call function id n2', id(num2))
+    print(num1, num2)
+    return num1, num2
 
 
 if __name__ == '__main__':
